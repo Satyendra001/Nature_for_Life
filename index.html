@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nature Lover</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Bree+Serif&family=Noto+Serif:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+        
+        <style>
+            /* CSS Reset */
+            body {
+                margin: 0px;
+                padding: 0px;
+                background: url("img/bg.png") repeat-y;
+                background-color: black;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="img/logo.jpg" alt="Nota">
+            </div>
+            <div class="text">Naturistic</div>
+
+
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <button class="btn">Feedback</button>
+                <button class="btn">MailUs</button>
+            </div>
+        </header>
+
+        <div class="container">
+            <p class="p1"> Are you Ready to Do Something Great?</p>
+            <p class="p2">Come and join Us</p>
+            <p class="p3"> We are palnning to plant 1 Million Trees in this Year</p>
+        </div>
+
+        <div class="form">
+        <form action="noaction.php">
+
+            <div id="heading"><h2 style="color: white;margin-left: 45px;">Wanna Join... Fill the details</h2></div>
+            <div id="name">
+                <label for="text" style="color: white;">Enter your name</label>
+                <input type="text" name="mytext" id="text">
+            </div>
+
+            <div id="mail">
+                <label for="email" style="color: white;">EMAIL</label>
+                 <input type="email" name="myEmail" id="email" style="margin-left: 60px;">
+            </div>
+
+            <div id="date">
+                <label for="date" style="color: white;">DATE</label>
+                <input type="date" name="myDate" id="date" style="margin-left: 70px;">
+            </div>
+
+            <div id="you">
+                <label for="you" style="color: white;">ABOUT YOU:</label> <br>
+                 <textarea name="myText"  cols="30" rows="5" id="you"></textarea>
+            </div>
+
+            <div id="accept">
+                Accept Terms and Conditions: <input type="checkbox" name="myCheckbox" checked>
+            </div>
+
+            <div id="btn">
+                <button type="submit" id="sub">SUBMIT</button> 
+            </div>
+           
+        </form>
+    </div>
+    </body>
+
+</html>
